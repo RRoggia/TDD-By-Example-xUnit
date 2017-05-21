@@ -1,11 +1,11 @@
 class WasRun:
     def __init__(self, name):
     	self.wasRun = None
-    def testMethod(self):
+    def run(self):
     	self.wasRun = 1
 
 
 test = WasRun("testMethod")
 print test.wasRun
-test.testMethod()
+test.run()
 print test.wasRun
